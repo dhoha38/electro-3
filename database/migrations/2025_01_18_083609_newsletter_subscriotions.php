@@ -16,7 +16,7 @@ return new class extends Migration
             $table->id();  // معرف تلقائي
             $table->string('email')->unique();  // البريد الإلكتروني الفريد
             $table->timestamps();  // تاريخ الإنشاء والتحديث
-        });
+        }); 
     }
 
     /**
